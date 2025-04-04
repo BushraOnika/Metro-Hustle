@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 643695183}
   - component: {fileID: 643695182}
   - component: {fileID: 643695181}
+  - component: {fileID: 643695186}
   m_Layer: 0
   m_Name: Bushra
   m_TagString: Untagged
@@ -388,7 +389,7 @@ MonoBehaviour:
     z: 0
   m_PrimitiveSize:
     x: 1
-    y: 1
+    y: 0
     z: 2
   m_PrimitiveOrientation:
     Value:
@@ -409,7 +410,7 @@ MonoBehaviour:
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.03
-    m_BevelRadius: 0.05
+    m_BevelRadius: 0
     m_MinimumAngle: 2.5000002
   m_CustomMesh: {fileID: 0}
   m_ForceUnique: 0
@@ -625,12 +626,28 @@ Transform:
   m_GameObject: {fileID: 643695180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 1, z: 0}
+  m_LocalPosition: {x: 5, y: 1, z: 0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &643695186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643695180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cbe5c2679947b38fcea2699d0ea982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position:
+    x: 5
+    y: 1
+    z: 0.41
 --- !u!1 &964983361
 GameObject:
   m_ObjectHideFlags: 0
